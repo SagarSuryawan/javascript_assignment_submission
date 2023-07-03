@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example of position</title>
+    <style>
+
+        body{
+            height: 1000px;
+        }
+        /* static */
+
+        #static{
+        position: static;
+        background-color: lightblue;
+        padding: 10px;
+        }
+
+        /* fixed */
+
+        #fixed{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: lightgreen;
+            padding: 10px
+        }
+
+        /* sticky */
+
+        #sticky{
+            position: sticky;
+            top: 100px;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        /* relative */
+
+        #relative{
+            position: relative;
+            top: 30px;
+            left: 20px;
+            background-color: rgb(235, 235, 6);
+            padding: 10px;
+        }
+        /* absolute */
+
+        #absolute{
+           position: absolute;
+            top: 50px;
+            left: 100px;
+            background-color: lightpink;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- static position -->
+
+    <div id="static">
+        this is static position
+    </div>
+
+    <!-- fixed position -->
+
+    <div id="fixed">
+        this is fixed position
+    </div>
+
+    <!-- sticky -->
+
+    <div id="sticky">
+        this is sticky element
+    </div>
+
+    <!-- relativ position -->
+
+    <div id="relative">
+        this is relative position
+    </div>
+
+    <!-- absolute position -->
+
+    <div id="absolute">
+        this is absolute position
+    </div>
+
+
+
+</body>
+</html>
