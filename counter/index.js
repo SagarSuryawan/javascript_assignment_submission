@@ -40,7 +40,7 @@ reset.addEventListener("click",() =>{
 
     // let reset= document.getElementById("count").innerText = 0;
 
-    counter = document.getElementById("count").innerText = 0
+    counter = document.getElementById("count").innerText = 0         
  })
 
 
